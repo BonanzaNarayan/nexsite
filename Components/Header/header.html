@@ -1,0 +1,44 @@
+<html>
+<head>
+    <link rel="stylesheet" href="Components/Header/style.css">
+</head>
+<body>
+    <header>
+        <a href="" class="logo">
+            <h1>N<span>S</span>S</h1>
+        </a>
+
+        <nav id="nav-menu">
+            <div class="close-btn">
+                ✖
+            </div>
+            <ul>
+                <a href="">Home</a>
+                <a href="">Services</a>
+                <a href="">Portfolio</a>
+                <a href="">Contact</a>
+                <a href="">About</a>
+                <a href="">Blog/News</a>
+            </ul>
+        </nav>
+
+        <div class="open-nav-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <script>
+        const navMenu = document.getElementById("nav-menu")
+        const navMenuBtn = document.querySelector(".open-nav-btn")
+        const navMenuBtnClose = document.querySelector(".close-btn")
+
+        navMenuBtn.addEventListener('click', ()=>{
+            navMenu.style.right = "0";
+        })
+        navMenuBtnClose.addEventListener('click', ()=>{
+            navMenu.style.right = "-400px";
+        })
+    </script>
+</body>
+</html>
