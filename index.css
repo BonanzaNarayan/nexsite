@@ -1,8 +1,8 @@
 main{
     min-height: 100vh;
     animation: appeartop 0.3s linear;
-    /* animation-timeline: view();
-    animation-range: entry 0 cover 40%; */
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
 }
 @keyframes appeartop{
     from{
