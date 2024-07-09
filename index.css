@@ -341,6 +341,27 @@ main{
 .why-us .card4 p{
     font-size: 1.1rem;
 }
+.techs{
+    margin: 20px 50px;
+    box-shadow: 2px 2px 5px rgba(75, 75, 75, 0.322);
+    padding: 20px;
+}
+.techs .imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.techs .imgs img{
+    width: 3.5rem;
+    border: 2px solid #e91e63;
+    padding: 10px;
+}
+.techs .text{
+    margin-top: 20px;
+    color: rgb(23, 24, 32);
+}
 
 @media (max-width: 1028px){
     .service-container{
