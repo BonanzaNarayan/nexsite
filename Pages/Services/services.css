@@ -1,0 +1,254 @@
+main{
+    min-height: 100vh;
+}
+.top{
+    height: 50vh;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.39),rgb(65, 65, 65)), url(/Assets/imgs/StockCake-Tech\ Support\ Specialist_1720794311.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.titles{
+    position: relative;
+    color: white;
+    font-size: 2.5rem;
+}
+.titles::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 6px;
+    border-radius: 10px;
+    background: white;
+}
+.services{
+    color: rgb(22, 26, 32);
+    margin: 20px 50px;
+    font-size: 1.5rem;
+}
+.containerS{
+    height: inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.containerS .card{
+    width: 95%;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(49, 49, 49, 0.76);
+    min-height: 150px;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    color: rgb(19, 19, 29);
+}
+.containerS .card:hover{
+    border: 3px solid #e91e63;
+    transition: 0.3s ease-in-out;
+}
+.containerS .card ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: circle;
+    padding: 20px;
+}
+.containerS .card ul li{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.containerS .card img{
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px #e91e63;
+    width: 100%;
+}
+.containerS .card h2{
+    position: relative;
+}
+.containerS .card h2::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 6px;
+    border-radius: 10px;
+    background: #e91e63;
+}
+.pricing-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.pricing-header {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.p1{
+    color: #4f27ff;
+    filter: drop-shadow(0 0 5px rgb(187, 46, 243));
+}
+.p2{
+    color: gold;
+    filter: drop-shadow(0 0 5px rgba(255, 102, 47, 0.514));
+}
+.p3{
+    color: #6e8d8d;
+    filter: drop-shadow(2px 2px 5px rgba(107, 107, 107, 0.644));
+}
+.p4{
+    color: #3ea758;
+    filter: drop-shadow(2px 2px 5px rgba(16, 163, 102, 0.644));
+}
+.plan{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.397);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+.plan1:hover{
+    background: #383838;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 10px -10px 0px #4f27ff;
+}
+.plan2:hover{
+    background: #383838;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 10px -10px 0px gold;
+}
+.plan3:hover{
+    background: #383838;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 10px -10px 0px #6e8d8d;
+}
+.plan4:hover{
+    background: #383838;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 10px -10px 0px #3ea758;
+}
+.plan-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.plan-price {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.plan-features {
+    text-align: left;
+    list-style: circle;
+}
+.plan-features li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.dt, .dt1 {
+    color: #343a40;
+}
+.dt{
+    margin: 20px 50px;
+}
+.domain-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 50px;
+    gap: 10px;
+}
+.pricing-section1{
+    width: 90%;
+}
+.pricing-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(36, 36, 36, 0.438);
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pricing-card:nth-child(odd) {
+    background-color: #e9ecef;
+}
+.domain-name {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.price {
+    color: #007bff;
+    font-weight: bold;
+}
+.hero {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.39),rgb(41, 41, 41)), url(/Assets/imgs/StockCake-Technology\ Engagement\ Joy_1720801894.jpg) no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+}
+.hero h1 {
+    font-size: 4em;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+.cta-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cta-button:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 1028px){
+    .containerS{
+        grid-template-columns: 1fr 1fr;
+    }
+    .domain-con{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 600px){
+    .containerS{
+        grid-template-columns: 1fr;
+    }
+}

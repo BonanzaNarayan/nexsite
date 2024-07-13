@@ -7,7 +7,7 @@ fetch('/Components/Header/header.html')
     const doc = parser.parseFromString(data, 'text/html')
     eval(doc.querySelector('script').textContent)
 })
-
+//Footer
 const footer = document.querySelector(".footer")
 fetch('/Components/Footer/footer.html')
 .then(res=>res.text())
