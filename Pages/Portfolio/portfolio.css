@@ -76,3 +76,26 @@ main{
 .project-link:hover {
     background-color: #b41c4f;
 }
+.hero-port{
+    background-image: linear-gradient(180deg, rgba(44, 44, 44, 0.534), rgb(0, 0, 0)), url(/Assets/Projects/StockCake-Advanced\ Control\ Room_1720893895.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-port h2{
+    color: white;
+}
+.hero-port a{
+    padding: 10px;
+    background: #e91e63;
+    border-radius: 6px;
+}
+.hero-port a:hover{
+    transform: translateY(-7px);
+    transition: 0.3s;
+}

@@ -1,0 +1,106 @@
+.contact-top{
+    height: 40vh;
+    background-image: linear-gradient(180deg, rgba(58, 58, 58, 0.253), rgba(27, 27, 27, 0.747)), url(/Assets/New/StockCake-Office\ Contact\ Sign_1720894722.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.contact-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-container {
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.contact-container h1, .contact-container h2 {
+    color: #160f22;
+    text-align: center;
+}
+
+.contact-container p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.contact-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #1b1225;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #460d7a;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form textarea{
+    resize: none;
+    height: 25vh;
+}
+.contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+.social-media-links a img{
+    width: 13rem;
+}
+.map-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+}
