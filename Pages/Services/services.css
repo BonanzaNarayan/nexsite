@@ -159,6 +159,19 @@ main{
     margin-bottom: 10px;
     font-size: 1.1rem;
 }
+.nego{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
+.nego a{
+    color: #0056b3;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 2px #0056b3 solid;
+}
 .dt, .dt1 {
     color: #343a40;
 }
