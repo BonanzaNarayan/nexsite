@@ -169,9 +169,11 @@ main{
 }
 .nego p{
     font-size: 1.5rem;
+    color: white;
 }
 .nego a{
-    color: #0056b3;
+    color: #ffffff;
+    background: #0056b3;
     padding: 10px;
     font-size: 1.1rem;
     border: 2px #0056b3 solid;
